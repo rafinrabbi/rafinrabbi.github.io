@@ -22,14 +22,14 @@ repository               : "rafinrabbi/rafinrabbi.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "photo_6278337688570545667_y.jpg"
   name             : "Rawhatur Rabbi"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Research Assistant at Brac University, passionate about deep learning and computer vision."
+  location         : "Dhaka, Bangladesh"
+  employer         : "Brac University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "rawhatur.rabbi@gmail.com"
 
   # Academic websites
   academia         : # URL
@@ -52,7 +52,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
