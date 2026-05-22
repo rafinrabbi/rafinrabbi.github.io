@@ -1,0 +1,208 @@
+cv:
+  name: Rawhatur Rabbi
+  label: Graduate Research Assistant & Adjunct Lecturer
+  email: rawhatur.rabbi@gmail.com
+  location: Dhaka, Bangladesh
+  image: ""
+  summary: Curious and research-driven professional with a strong foundation in Artificial Intelligence. Work centers on developing efficient and interpretable deep learning systems for real-world problems. Motivated to pursue advanced research at the doctoral level, with the long-term goal of contributing to academia through research, teaching, and mentorship.
+
+  social_networks:
+    - network: GitHub
+      username: rafinrabbi
+    - network: LinkedIn
+      username: rawhatur-rabbi-rafin
+
+  sections:
+    Education:
+      - institution: BRAC University
+        location: Dhaka, Bangladesh
+        url: https://www.bracu.ac.bd/
+        area: Computer Science and Engineering
+        studyType: M.Sc.
+        start_date: 2024-04
+        end_date: present
+        score: "3.83/4.00 (ongoing)"
+        highlights:
+          - Merit-Based Scholarship recipient
+          - Graduate Research Assistant
+          - "Thesis: Real-Time Fall Detection for Edge Devices Using Distilled Video Representations (In progress)"
+          - "Courses: Symbolic Machine Learning, Advanced Artificial Intelligence, Information Assurance and Human Factor, Pattern Recognition, Advanced NLP"
+
+      - institution: BRAC University
+        location: Dhaka, Bangladesh
+        url: https://www.bracu.ac.bd/
+        area: Computer Science and Engineering
+        studyType: B.Sc.
+        start_date: 2019-01
+        end_date: 2022-12
+        score: "3.62/4.00 (High Distinction)"
+        highlights:
+          - Merit-Based Scholarship recipient
+          - Student Tutor
+          - "Undergraduate Thesis: Lightweight Custom CNNs for Corn Leaf Disease Classification"
+
+      - institution: Notre Dame College
+        location: Dhaka, Bangladesh
+        area: Higher Secondary School Certificate
+        studyType: HSC
+        start_date: 2016-03
+        end_date: 2018-08
+        score: "GPA: 5.00/5.00"
+
+    Experience:
+      - company: Presidency University
+        position: Adjunct Lecturer (Part Time)
+        location: Dhaka, Bangladesh
+        start_date: 2026-01
+        end_date: present
+        summary: Department of Computer Science and Engineering
+        highlights:
+          - Deliver lectures and laboratory sessions for Object-Oriented Programming (OOP) covering classes, inheritance, polymorphism, encapsulation, and abstraction in Java.
+          - Design course materials, assignments, and lab exercises to reinforce theoretical concepts through hands-on programming practice.
+          - Evaluate student performance and provide structured feedback.
+
+      - company: Samsung R&D Institute Bangladesh (SRBD) – Collaborative Project, BRAC University
+        position: Research Assistant (Full Time)
+        location: Dhaka, Bangladesh
+        start_date: 2026-01
+        end_date: present
+        highlights:
+          - Conducting research on stop-motion video rendering pipelines, contributing to efficient frame synthesis and temporal consistency techniques.
+          - Developing and evaluating deep learning models for video segmentation and precise scene decomposition.
+          - Implementing object tracking algorithms for robust identity association and trajectory estimation.
+          - Investigating amodal and modal instance segmentation under occlusion in real-world video data.
+
+      - company: BRAC University
+        position: Research Assistant (Full Time)
+        location: Dhaka, Bangladesh
+        start_date: 2023-09
+        end_date: 2025-11
+        summary: Department of Computer Science and Engineering
+        highlights:
+          - Led technical development within an RSGI-funded project on real-time fall detection and activity recognition, including dataset design and system implementation.
+          - Developed and deployed real-time human activity recognition pipelines integrating deep learning and computer vision, achieving 90% accuracy on custom motion datasets.
+          - Engineered scalable data processing and real-time streaming infrastructure for low-latency model inference and deployment.
+          - Co-authored multiple peer-reviewed journal and conference publications; contributed to successful grant proposals.
+          - Mentored 30+ undergraduate thesis students and supported interdisciplinary research through data engineering and analytics.
+
+      - company: Medina Tech Ltd. (now Genius Farms Limited)
+        position: Software Engineer Trainee (AI & ML)
+        location: Dhaka, Bangladesh
+        start_date: 2023-04
+        end_date: 2023-09
+        highlights:
+          - Enhanced datasets via data augmentation, diversifying data by 30%, leading to 20% improvement in model performance.
+          - Implemented geocode visualization methods for location-based trend analysis.
+          - Collaborated on backend development using Django and Odoo.
+
+      - company: Master Wizr
+        position: QA & Automation Tester
+        location: Oslo, Norway (Remote)
+        start_date: 2021-07
+        end_date: 2024-01
+        highlights:
+          - Developed and executed comprehensive test plans and cases for software applications.
+          - Automated repetitive testing using Selenium and Postman, reducing manual testing time by 50%.
+          - Identified, documented, and tracked bugs through to resolution.
+
+      - company: BRAC University
+        position: Undergraduate Teaching Assistant
+        location: Dhaka, Bangladesh
+        start_date: 2022-01
+        end_date: 2022-04
+        summary: School of Data & Sciences
+        highlights:
+          - Provided personalized instruction addressing individual learning needs.
+          - Simplified complex math and computer science concepts for better comprehension.
+          - Created and shared study materials including practice problems and solutions.
+
+    Publications:
+      - title: "Deep Representation Learning using Layer-wise VICReg Losses"
+        authors:
+          - Joyanta Datta
+          - Rawhatur Rabbi
+          - Pritom Saha
+          - et al.
+        publisher: Scientific Reports (Q1 Journal)
+        releaseDate: 2025
+        url: https://doi.org/10.1038/s41598-025-08504-2
+
+      - title: "Contrast then Confidence (C²): Contrastive Pretraining for Uncertainty-Aware Out-of-Distribution Detection in Satellite Imagery"
+        authors:
+          - Rawhatur Rabbi
+          - Faiza Afaf Sarwar
+          - et al.
+        publisher: GeoCV Workshop, WACV 2026
+        releaseDate: 2026
+
+      - title: "POM-NeRF: Perception-Oriented Modification of Neural Radiance Fields for Enhanced 3D Volumetric Rendering"
+        authors:
+          - Joyanta Datta
+          - Rawhatur Rabbi
+          - et al.
+        publisher: VISAPP 2026 (CORE Rank B)
+        releaseDate: 2026
+
+    Skills:
+      - name: Programming & Systems
+        icon: fa-solid fa-code
+        keywords: "Python, C++, Java, JavaScript/TypeScript, Linux, Bash/Zsh, Git"
+
+      - name: ML Frameworks
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, TensorFlow, Keras"
+
+      - name: NLP & LLMs
+        icon: fa-solid fa-comment-dots
+        keywords: "Transformer models, RAG, LangChain, prompt engineering, vector databases, embedding-based retrieval"
+
+      - name: Backend & APIs
+        icon: fa-solid fa-server
+        keywords: "Django, Flask, FastAPI, Node.js, Express.js"
+
+      - name: Data & Storage
+        icon: fa-solid fa-database
+        keywords: "PostgreSQL, MySQL, MongoDB, Firebase, FAISS, ChromaDB"
+
+      - name: Deployment & MLOps
+        icon: fa-solid fa-rocket
+        keywords: "Docker, MLflow, DVC, edge deployment on NVIDIA Jetson"
+
+      - name: Frontend & Mobile
+        icon: fa-solid fa-mobile-screen
+        keywords: "React.js, HTML/CSS, Flutter"
+
+    Awards:
+      - title: "Finalist — Agriculture Track, AI Hackathon, Bangladesh Innovation Conclave"
+        date: 2025
+        awarder: BRAC University
+
+      - title: Merit-Based Scholarship (M.Sc.)
+        date: 2024
+        awarder: BRAC University
+        summary: Awarded for academic excellence in graduate studies.
+
+      - title: Merit-Based Scholarship (B.Sc.)
+        date: 2019
+        awarder: BRAC University
+        summary: Awarded for academic excellence in undergraduate studies.
+
+      - title: "Finalist — Line Follower Robot, RUET CSE FEST"
+        date: 2022
+        awarder: RUET
+
+      - title: "Finalist — Hackathon of Joyjatra'21 National Fest"
+        date: 2021
+        awarder: Bangladesh
+
+      - title: "2nd Runner-up — Intra-University Programming Contest"
+        date: 2020
+        awarder: BRAC University
+
+      - title: "Vice Chancellor's List — Outstanding Academic Performance"
+        date: 2019
+        awarder: BRAC University
+
+      - title: "2nd Position — Web Designing Competition, Notre Dame Annual Science Festival"
+        date: 2014
+        awarder: Notre Dame College
