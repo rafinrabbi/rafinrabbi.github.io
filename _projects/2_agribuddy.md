@@ -3,7 +3,7 @@ layout: page
 title: AgriBuddy
 description: Multilingual AI agricultural assistant using agentic RAG with Bangla embeddings, built for the AI Hackathon at Bangladesh Innovation Conclave 2025.
 importance: 2
-category: projects
+category: applied
 ---
 
 **AgriBuddy** is a multilingual AI-powered agricultural assistant designed to improve farmer decision-making through context-aware recommendations tailored to local Bangladeshi conditions. Built during the AI Hackathon at **Bangladesh Innovation Conclave 2025** (Finalist — Agriculture Track), the system uses an **agentic RAG framework** with Bangla-language embeddings to deliver highly relevant, culturally grounded agricultural guidance.

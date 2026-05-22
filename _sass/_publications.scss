@@ -5,7 +5,7 @@
 @use "variables" as v;
 
 .publications {
-  margin-top: 2rem;
+  margin-top: 1.25rem;
 
   h1 {
     color: var(--global-theme-color);
@@ -24,11 +24,11 @@
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
+    color: var(--global-text-color);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
-    text-align: right;
+    text-align: left;
   }
 
   ol.bibliography {
@@ -37,7 +37,13 @@
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
+      border-top: 1px solid var(--global-divider-color);
+      margin-bottom: 0;
+      padding: 1rem 0;
+
+      &:first-child {
+        border-top: 0;
+      }
 
       .preview {
         display: inline-block;
@@ -68,10 +74,17 @@
       }
 
       .title {
+        font-size: 1.02rem;
         font-weight: bolder;
+        line-height: 1.35;
+        margin-bottom: 0.25rem;
       }
 
       .author {
+        color: var(--global-text-color-light);
+        font-size: 0.94rem;
+        line-height: 1.5;
+
         a {
           border-bottom: 1px dashed var(--global-theme-color);
 
@@ -99,6 +112,8 @@
       }
 
       .links {
+        margin-top: 0.5rem;
+
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
@@ -107,6 +122,8 @@
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           margin-left: 0;
+          margin-bottom: 0.25rem;
+          margin-right: 0.25rem;
 
           &:hover {
             color: var(--global-theme-color);
@@ -116,6 +133,12 @@
         a.award.btn {
           border-color: var(--global-highlight-color);
         }
+      }
+
+      .periodical {
+        color: var(--global-text-color-light);
+        font-size: 0.92rem;
+        line-height: 1.45;
       }
 
       .badges {

@@ -3,7 +3,7 @@ layout: page
 title: Dr. Chashi
 description: AI-powered crop disease detection system for digital farming, developed at Medina Tech Ltd. using deep learning models trained on real field-collected datasets.
 importance: 3
-category: projects
+category: applied
 ---
 
 **Dr. Chashi** ("Dr. Farmer") is a real-time plant disease detection application developed during my tenure at Medina Tech Ltd. (now Genius Farms Limited). The system uses deep learning models trained on **real field-collected datasets** to detect crop diseases from smartphone images, providing actionable diagnosis to farmers without requiring agricultural expertise.
