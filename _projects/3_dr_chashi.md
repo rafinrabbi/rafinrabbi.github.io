@@ -1,13 +1,23 @@
 ---
 layout: page
-title: Dr. Chashi
-description: AI-powered crop disease detection system for digital farming, developed at Medina Tech Ltd. using deep learning models trained on real field-collected datasets.
+title: Real-Time Plant Disease Detection App
+description: Fine-tuned and productionized a mobile field app that delivers real-time plant disease predictions to farmers.
+img: assets/img/projects/dr-chashi.png
 importance: 3
 category: applied
 ---
 
-**Dr. Chashi** ("Dr. Farmer") is a real-time plant disease detection application developed during my tenure at Medina Tech Ltd. (now Genius Farms Limited). The system uses deep learning models trained on **real field-collected datasets** to detect crop diseases from smartphone images, providing actionable diagnosis to farmers without requiring agricultural expertise.
+I contributed to **Dr. Chashi**, a digital-farming platform, by improving its **real-time plant disease detection** capability. The application uses deep learning models trained on real field-collected datasets to detect crop diseases from smartphone images and provide actionable guidance to farmers.
 
-Model robustness and practical usability were improved through systematic data preprocessing pipelines and close collaboration with agricultural domain experts, ensuring the system performs reliably under varying lighting and field conditions.
+### Key Contributions
 
-**Technologies:** Python, TensorFlow/Keras, OpenCV, data augmentation, PostgreSQL, Django
+- Fine-tuned the core classification model, increasing accuracy and predictive reliability under field conditions.
+- Collaborated with agriculture experts and researchers to incorporate domain insights into model updates.
+- Improved model robustness through data preprocessing, augmentation, evaluation, thresholding, and rollout support.
+
+### Outcome
+
+- Delivered more precise and faster diagnoses in the field.
+- Improved farmer decision-making and crop outcomes through practical AI-based support.
+
+**Technologies:** Python, PyTorch, TensorFlow/Keras, OpenCV, transfer learning, data augmentation, PostgreSQL, Django

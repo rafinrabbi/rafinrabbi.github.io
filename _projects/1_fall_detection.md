@@ -1,13 +1,25 @@
 ---
 layout: page
-title: Real-Time Fall Detection for Edge Devices
-description: RSGI-funded research project on real-time fall detection and activity recognition using distilled video representations, deployed on NVIDIA Jetson hardware.
+title: Video Analytics for Real-Time Fall Detection & Activity Recognition
+description: Real-time fall detection and daily-activity recognition system for elderly care using video analytics and on-device inference.
+img: assets/img/projects/fall-detection.png
 importance: 1
 category: research
 ---
 
-This project, funded by the BRAC University Research Seed Grant Initiative (RSGI), develops a **real-time fall detection and human activity recognition system** for edge-deployable hardware. The system integrates deep learning-based pose estimation, temporal sequence modeling, and knowledge distillation to achieve low-latency inference on resource-constrained devices such as the NVIDIA Jetson platform.
+This RSGI-funded research project develops a **real-time fall detection** and **daily-activity recognition** system to improve safety and quality of life for independently living older adults. The system integrates video analytics, pose estimation, temporal modeling, and edge deployment for low-latency inference.
 
-Key contributions include a custom annotated dataset of fall events, a CNN–LSTM pipeline achieving **90% accuracy** on motion data, and a lightweight distilled model optimized for real-time edge deployment. The project produced multiple peer-reviewed publications and serves as the basis for my **M.Sc. thesis**.
+### What I Built
+
+- Designed a real-time video analytics pipeline for fall detection with low latency and high recall.
+- Created a custom dataset of falls and daily activities using pose estimation and machine learning.
+- Built a CNN-LSTM pipeline achieving **90% accuracy** on motion data.
+- Deployed edge inference on **NVIDIA Jetson Orin Nano** for on-device processing and immediate cloud-based alerts to caregivers.
+
+### Impact
+
+- Enables immediate alerts with privacy-preserving, on-device processing.
+- Supports 24/7 monitoring and scalable caregiver dashboards.
+- Serves as the basis for my **M.Sc. thesis** and related peer-reviewed publications.
 
 **Technologies:** Python, PyTorch, OpenCV, MediaPipe, NVIDIA Jetson Orin, Docker, MLflow

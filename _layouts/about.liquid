@@ -2,41 +2,107 @@
 layout: default
 ---
 <div class="post about-page">
-  <header class="post-header about-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
+  <div class="about-hero{% if page.profile %} has-profile{% endif %}">
+    <div class="about-hero-text">
+      {% if page.badge %}
+        <div class="hero-badge">
+          {% if page.badge.icon %}<i class="{{ page.badge.icon }}"></i>{% endif %}
+          <span>{{ page.badge.text }}</span>
+        </div>
       {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
 
-  <article class="about-content">
+      <h1 class="post-title hero-name">
+        {% if site.title == 'blank' %}
+          <span class="font-weight-bold">{{ site.first_name }}</span>
+          {% if site.middle_name %} {{ site.middle_name }}{% endif %}
+          {% if site.last_name %} {{ site.last_name }}{% endif %}
+        {% else %}
+          {{ site.title }}
+        {% endif %}
+      </h1>
+
+      <div class="hero-accent-bar" aria-hidden="true"></div>
+
+      {% if page.research_tags %}
+        <div class="research-tags" aria-label="Research interests">
+          {% for tag in page.research_tags %}
+            <span class="research-tag">{{ tag }}</span>
+            {%- unless forloop.last -%}
+              <span class="research-tag-sep" aria-hidden="true">&bull;</span>
+            {%- endunless %}
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% if page.bio %}
+        <p class="hero-bio">{{ page.bio }}</p>
+      {% endif %}
+
+      {% if page.roles %}
+        <div class="role-tiles">
+          {% for role in page.roles %}
+            <div class="role-tile">
+              {% if role.icon %}<i class="role-tile-icon {{ role.icon }}" aria-hidden="true"></i>{% endif %}
+              <div class="role-tile-body">
+                <div class="role-tile-title">{{ role.title }}</div>
+                <div class="role-tile-org">{{ role.org }}</div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% if page.actions %}
+        <div class="hero-actions">
+          {% for action in page.actions %}
+            <a
+              class="hero-btn{% if action.primary %} hero-btn-primary{% else %} hero-btn-outline{% endif %}"
+              href="{{ action.href }}"
+              {% if action.href contains '://' or action.href contains '.pdf' %}
+                target="_blank" rel="noopener"
+              {% endif %}
+            >
+              {% if action.icon %}<i class="{{ action.icon }}" aria-hidden="true"></i>{% endif %}
+              <span>{{ action.label }}</span>
+            </a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+
     {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+      <aside class="profile profile-hero">
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle profile-img' %}
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded profile-img' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 }}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
+          {% capture sizes %}(min-width: 768px) 260px, (min-width: 576px) 40vw, 90vw{% endcapture %}
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
             cache_bust=true
           %}
         {% endif %}
-        {% if page.profile.more_info %}
+        {% if page.profile.more_info_rows %}
+          <div class="profile-info">
+            {% for row in page.profile.more_info_rows %}
+              <div class="profile-info-row">
+                {% if row.icon %}<i class="profile-info-icon {{ row.icon }}" aria-hidden="true"></i>{% endif %}
+                <span class="profile-info-text">{{ row.text }}</span>
+              </div>
+            {% endfor %}
+          </div>
+        {% elsif page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
-      </div>
+      </aside>
     {% endif %}
+  </div>
 
-    <div class="about-main clearfix">{{ content }}</div>
+  <article class="about-content">
+    <div class="about-main">{{ content }}</div>
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}

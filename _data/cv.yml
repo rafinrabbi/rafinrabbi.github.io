@@ -1,10 +1,10 @@
 cv:
   name: Rawhatur Rabbi
-  label: Graduate Research Assistant & Adjunct Lecturer
+  label: Graduate Research Assistant, Adjunct Lecturer & Prospective Ph.D. Applicant
   email: rawhatur.rabbi@gmail.com
   location: Dhaka, Bangladesh
   image: ""
-  summary: Curious and research-driven professional with a strong foundation in Artificial Intelligence. Work centers on developing efficient and interpretable deep learning systems for real-world problems. Motivated to pursue advanced research at the doctoral level, with the long-term goal of contributing to academia through research, teaching, and mentorship.
+  summary: Curious and research-driven professional with a strong foundation in Artificial Intelligence. Work centers on developing efficient and interpretable deep learning systems for real-world problems. Prospective Ph.D. applicant motivated to pursue advanced research at the doctoral level, with the long-term goal of contributing to academia through research, teaching, and mentorship.
 
   social_networks:
     - network: GitHub
@@ -50,6 +50,17 @@ cv:
         score: "GPA: 5.00/5.00"
 
     Experience:
+      - company: Daffodil International University
+        position: Adjunct Lecturer (Part Time)
+        location: Dhaka, Bangladesh
+        start_date: 2026-05
+        end_date: present
+        highlights:
+          - "Courses: Application of Python, Introduction to Cyber Security, ICT in Business."
+          - Teach and support undergraduate coursework with emphasis on programming practice, applied problem solving, cybersecurity fundamentals, and student-centered learning.
+          - Prepare course materials, lab activities, and assessments to strengthen conceptual understanding through practical implementation.
+          - Provide structured feedback and academic support to help students improve technical communication and programming skills.
+
       - company: Presidency University
         position: Adjunct Lecturer (Part Time)
         location: Dhaka, Bangladesh
@@ -57,7 +68,8 @@ cv:
         end_date: present
         summary: Department of Computer Science and Engineering
         highlights:
-          - Deliver lectures and laboratory sessions for Object-Oriented Programming (OOP) covering classes, inheritance, polymorphism, encapsulation, and abstraction in Java.
+          - "Courses: Object-Oriented Programming (OOP), Digital Logic Design."
+          - Deliver lectures and laboratory sessions covering programming fundamentals, object-oriented design, and digital logic concepts.
           - Design course materials, assignments, and lab exercises to reinforce theoretical concepts through hands-on programming practice.
           - Evaluate student performance and provide structured feedback.
 
@@ -119,10 +131,12 @@ cv:
     Publications:
       - title: "Deep Representation Learning using Layer-wise VICReg Losses"
         authors:
-          - Joyanta Datta
+          - Joy Datta
           - Rawhatur Rabbi
-          - Pritom Saha
-          - et al.
+          - Puja Saha
+          - Aniqua Nusrat Zereen
+          - M. Abdullah-Al-Wadud
+          - Jia Uddin
         publisher: Scientific Reports (Q1 Journal)
         releaseDate: 2025
         url: https://doi.org/10.1038/s41598-025-08504-2
@@ -130,17 +144,36 @@ cv:
       - title: "Contrast then Confidence (C²): Contrastive Pretraining for Uncertainty-Aware Out-of-Distribution Detection in Satellite Imagery"
         authors:
           - Rawhatur Rabbi
-          - Faiza Afaf Sarwar
-          - et al.
+          - Fabliha Afaf Sarwar
+          - Md Farhadul Islam
+          - Tashik Ahmed
+          - Sidu Rudro
+          - Md. Mahfujur Rahman
+          - Meem Arafat Manab
+          - Jannatun Noor Mukta
         publisher: GeoCV Workshop, WACV 2026
         releaseDate: 2026
 
       - title: "POM-NeRF: Perception-Oriented Modification of Neural Radiance Fields for Enhanced 3D Volumetric Rendering"
         authors:
-          - Joyanta Datta
+          - Joy Datta
           - Rawhatur Rabbi
-          - et al.
-        publisher: VISAPP 2026 (CORE Rank B)
+          - Md. Shaleh Islam Tonmoy
+          - Puja Saha
+          - Chad Mourning
+        publisher: "VISAPP 2026, part of VISIGRAPP (ICORE2026: Multiconference; previous CORE Rank B)"
+        releaseDate: 2026
+
+      - title: "Minimizing the Effect of Sleep Deprivation in the Forward-Forward Algorithm"
+        authors:
+          - Joy Datta
+          - Puja Saha
+          - Rawhatur Rabbi
+          - Nafiz Imtiaz Rafin
+          - Swakkhar Shatabda
+          - Md. Golam Rabiul Alam
+          - Chad Mourning
+        publisher: ICPR 2026 (ICORE2026 Rank B)
         releaseDate: 2026
 
     Skills:
