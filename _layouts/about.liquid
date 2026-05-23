@@ -146,7 +146,52 @@ layout: default
     <!-- Social -->
     {% if page.social %}
       <div class="social">
-        <div class="contact-icons">{% social_links %}</div>
+        <div class="contact-icons">
+          <a class="contact-icon-link contact-cv" href="{{ '/cv/' | relative_url }}" title="CV" aria-label="CV">CV</a>
+          <a class="contact-icon-link" href="mailto:{{ site.data.socials.email }}" title="Email" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a
+            class="contact-icon-link"
+            href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"
+            title="Google Scholar"
+            aria-label="Google Scholar"
+            rel="external nofollow noopener"
+            target="_blank"
+          >
+            <i class="ai ai-google-scholar"></i>
+          </a>
+          <a
+            class="contact-icon-link"
+            href="https://orcid.org/{{ site.data.socials.orcid_id }}"
+            title="ORCID"
+            aria-label="ORCID"
+            rel="external nofollow noopener"
+            target="_blank"
+          >
+            <i class="ai ai-orcid"></i>
+          </a>
+          <a
+            class="contact-icon-link"
+            href="https://github.com/{{ site.data.socials.github_username }}"
+            title="GitHub"
+            aria-label="GitHub"
+            rel="external nofollow noopener"
+            target="_blank"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            class="contact-icon-link"
+            href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}"
+            title="LinkedIn"
+            aria-label="LinkedIn"
+            rel="external nofollow noopener"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
 
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
