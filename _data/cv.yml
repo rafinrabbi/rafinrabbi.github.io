@@ -25,7 +25,7 @@ cv:
         highlights:
           - Merit-Based Scholarship recipient
           - Graduate Research Assistant
-          - "Thesis: Real-Time Fall Detection for Edge Devices Using Distilled Video Representations (In progress)"
+          - "Thesis: Multimodal Pose–Video Fusion and Biomechanics-Informed Vision-Language Model Explanation for Indoor Fall Detection (In progress)"
           - "Courses: Symbolic Machine Learning, Advanced Artificial Intelligence, Information Assurance and Human Factor, Pattern Recognition, Advanced NLP"
 
       - institution: BRAC University
@@ -51,12 +51,12 @@ cv:
 
     Experience:
       - company: Daffodil International University
-        position: Adjunct Lecturer (Part Time)
+        position: Lecturer
         location: Dhaka, Bangladesh
         start_date: 2026-05
         end_date: present
         highlights:
-          - "Courses: Application of Python, Introduction to Cyber Security, ICT in Business."
+          - "Courses: Application of Python, Introduction to Cyber Security, Programming for Business Analytics, Introduction to AI."
           - Teach and support undergraduate coursework with emphasis on programming practice, applied problem solving, cybersecurity fundamentals, and student-centered learning.
           - Prepare course materials, lab activities, and assessments to strengthen conceptual understanding through practical implementation.
           - Provide structured feedback and academic support to help students improve technical communication and programming skills.
@@ -68,7 +68,7 @@ cv:
         end_date: present
         summary: Department of Computer Science and Engineering
         highlights:
-          - "Courses: Object-Oriented Programming (OOP), Digital Logic Design."
+          - "Courses: Object-Oriented Programming (OOP), Digital Logic Design, Database Management Systems (DBMS)."
           - Deliver lectures and laboratory sessions covering programming fundamentals, object-oriented design, and digital logic concepts.
           - Design course materials, assignments, and lab exercises to reinforce theoretical concepts through hands-on programming practice.
           - Evaluate student performance and provide structured feedback.
@@ -129,6 +129,15 @@ cv:
           - Created and shared study materials including practice problems and solutions.
 
     Publications:
+      - title: "DeFog: Reliable Multi-View Dynamic Gaussian Splatting via Unconstrained Near-Camera Culling"
+        authors:
+          - S. Sadat
+          - Rawhatur Rabbi
+          - U. Sain
+          - et al.
+        publisher: IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2027, Main Conference)
+        releaseDate: 2027
+
       - title: "Deep Representation Learning using Layer-wise VICReg Losses"
         authors:
           - Joy Datta

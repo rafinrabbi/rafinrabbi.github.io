@@ -26,7 +26,7 @@ roles:
     title: Research Assistant
     org: BRAC University × Samsung R&amp;D Institute Bangladesh
   - icon: fa-solid fa-chalkboard-user
-    title: Adjunct Lecturer
+    title: Lecturer
     org: Daffodil International University &amp; Presidency University
 
 # actions:

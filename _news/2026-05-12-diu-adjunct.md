@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined [Daffodil International University](https://daffodilvarsity.edu.bd/) as an **Adjunct Lecturer**, teaching Application of Python, Introduction to Cyber Security, and ICT in Business.
+Joined [Daffodil International University](https://daffodilvarsity.edu.bd/) as a **Lecturer**, teaching Application of Python, Introduction to Cyber Security, Programming for Business Analytics, and Introduction to AI.
