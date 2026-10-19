@@ -1,14 +1,7 @@
 name: Render a CV
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths:
-      - "_data/cv.yml"
-      - "assets/rendercv/design.yaml"
-      - "assets/rendercv/locale.yaml"
-      - "assets/rendercv/settings.yaml"
+  # Push trigger disabled: RenderCV 2.x rejects this site's _data/cv.yml format,
+  # and the site links the manually maintained /assets/pdf/Rawhatur_Rabbi_CV.pdf.
   workflow_call:
   workflow_dispatch:
 permissions:

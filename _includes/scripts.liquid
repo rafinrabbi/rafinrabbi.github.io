@@ -281,6 +281,16 @@
     data-code="{{ site.pirsch_analytics }}"
   ></script>
 {% endif %}
+{% if site.enable_goatcounter_analytics and site.goatcounter_analytics %}
+  <script
+    {% if site.enable_cookie_consent %}
+      type="text/plain" data-category="analytics"
+    {% endif %}
+    data-goatcounter="https://{{ site.goatcounter_analytics }}.goatcounter.com/count"
+    async
+    src="https://gc.zgo.at/count.js"
+  ></script>
+{% endif %}
 {% if site.enable_openpanel_analytics %}
   <script
     {% if site.enable_cookie_consent %}
